@@ -16,24 +16,22 @@ $ gogen
 ```
 If you see
 ```
+Gogen v0.0.1
 Try one of this command to learn how to use it
-  gogen service
-  gogen gateway
-  gogen controller
-  gogen web
-  gogen usecase
+  gogen error
   gogen application
-  gogen webapp
+  gogen crud
   gogen enum
   gogen repository
-  gogen error
-  gogen test
-  gogen valuestring
-  gogen valueobject
-  gogen crud
-  gogen openapi
+  gogen gateway
   gogen domain
+  gogen service
+  gogen test
   gogen entity
+  gogen valuestring
+  gogen controller
+  gogen usecase
+  gogen valueobject
 ```
 
 And gogen is ready to use.
