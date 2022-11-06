@@ -5,8 +5,6 @@ export const en: SidebarConfig = {
     {
       text: 'Getting Started',
       children: [
-        '/getting-started/README.md',
-        '/getting-started/prerequisite.md',
         '/getting-started/installation.md',
         '/getting-started/basic-concept.md',
         '/getting-started/demo-1.md',
@@ -18,7 +16,6 @@ export const en: SidebarConfig = {
     {
       text: 'Feature',
       children: [
-        '/features/README.md',
         '/features/architecture.md',
         '/features/code-structure.md',
         '/features/cli.md',
@@ -34,7 +31,6 @@ export const en: SidebarConfig = {
     {
       text: 'Learn More',
       children: [
-        '/learn-more/README.md',
         '/learn-more/concept.md',
         '/learn-more/how-to.md',
       ],

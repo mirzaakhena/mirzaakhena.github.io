@@ -18,14 +18,14 @@ export default defineUserConfig({
     },
   ],
   ['meta', { name: 'keywords', content: 'microservice,service discovery,load balancing,circuit breaker,rate limit' }],
-  ['meta', { name: 'description', content: 'go-doudou is a golang microservice framework. It supports monolith service application as well. Starts from golang interface, no need to learn new IDL(interface definition language). Built-in SWIM gossip protocol based service register and discovery mechanism to help you build a robust, scalable and decentralized service cluster. Powerful code generator cli built-in. After defining your interface methods, your only job is implementing your awesome idea. Built-in service governance support including client-side load balancer, rate limiter, circuit breaker, bulkhead, timeout, retry and more.' }]
+  ['meta', { name: 'description', content: 'gogen is a golang microservice framework. It supports monolith service application as well. Starts from golang interface, no need to learn new IDL(interface definition language). Built-in SWIM gossip protocol based service register and discovery mechanism to help you build a robust, scalable and decentralized service cluster. Powerful code generator cli built-in. After defining your interface methods, your only job is implementing your awesome idea. Built-in service governance support including client-side load balancer, rate limiter, circuit breaker, bulkhead, timeout, retry and more.' }]
   ],
 
   locales: {
     "/": {
       lang: "en-US",
-      title: "gogen",
-      description: "Golang Microservice Framework(REST/gRPC)",
+      title: "GOGEN ",
+      description: "Golang Scafolding Tools ",
     }
   },
 
@@ -52,7 +52,7 @@ export default defineUserConfig({
   }),
 
   // themeConfig: {
-  //   repo: "https://github.com/unionj-cloud/go-doudou",
+  //   repo: "https://github.com/mirzaakhena/gogen",
   //   logo: "/logo.png",
   //   // theme-level locales config
   //   locales: {

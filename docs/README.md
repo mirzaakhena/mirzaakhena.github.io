@@ -7,7 +7,7 @@ actions:
     link: /getting-started/
     type: primary
   - text: Introduction
-    link: /introduction/README.md
+    link: /introduction/
     type: secondary
 features:
   - title: Simplicity
@@ -22,5 +22,5 @@ features:
     details: Built-in service governance support including client-side load balancer, rate limiter, circuit breaker, bulkhead, timeout, retry, tracing, logging and more.
   - title: Monolith and Microservice 
     details: Supporting both monolith and microservice architectures gives you flexibility to design your system.
-footer: MIT Licensed | Copyright © 2022-present go-doudou contributors
+footer: MIT Licensed | Copyright © 2022-present gogen contributors
 ---

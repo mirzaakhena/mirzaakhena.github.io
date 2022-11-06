@@ -7,16 +7,7 @@ export const en: NavbarConfig = [
   },
   {
     text: 'Getting Started',
-    children: [
-      {
-        text: 'Prerequisite',
-        link: '/getting-started/prerequisite/',
-      },
-      {
-        text: 'Installation',
-        link: '/getting-started/installation',
-      },
-    ]
+    link: '/getting-started/',
   },
   {
     text: 'Tutorial',
@@ -24,20 +15,15 @@ export const en: NavbarConfig = [
   },
   {
     text: 'Feature',
-    link: '/feature/',
+    link: '/features/',
   },
   {
-    text: `Version`,
-    children: [
-      {
-        text: 'v0.x',
-        link: 'https://github.com/unionj-cloud/go-doudou/blob/v0.9.8/README.md',
-      },
-      {
-        text: 'Release Notes',
-        link: 'https://github.com/unionj-cloud/go-doudou/releases',
-      },
-    ],
+    text: 'Concept',
+    link: '/learn-more/concept',
+  },
+  {
+    text: 'FAQ',
+    link: '/faq/',
   },
   {
     text: 'github',
