@@ -19,6 +19,7 @@ export const en: SidebarConfig = {
         '/features/architecture.md',
         '/features/code-structure.md',
         '/features/cli.md',
+        '/features/gogen-command-dependency.md',
         '/features/component.md',
         '/features/naming-convention.md',
         '/features/how-it-works.md',

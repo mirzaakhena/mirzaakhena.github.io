@@ -88,18 +88,18 @@ you will get the executable file
 ```shell
 $ ls -al
 
-    672 .
-   2880 ..
-    416 .git
-     13 .gitignore
-   1102 LICENCE
-  22581 README.md
-    672 command
-    264 go.mod
-   2603 go.sum
-6349730 gogen  <---- the executable file
-   2193 main.go
-    512 utils
+  drwxr-xr-x  20 mir  staff      640 Nov  6 10:31 .
+  drwxr-xr-x  90 mir  staff     2880 Nov  4 09:55 ..
+  drwxr-xr-x  13 mir  staff      416 Nov  6 10:53 .git
+  -rw-r--r--   1 mir  staff       13 May 27 20:12 .gitignore
+  -rw-r--r--   1 mir  staff     1102 Jun  7 06:13 LICENCE
+  -rw-r--r--   1 mir  staff    22581 Oct 27 22:09 README.md
+  drwxr-xr-x  21 mir  staff      672 Nov  2 19:44 command
+  -rw-r--r--   1 mir  staff      264 Nov  3 07:51 go.mod
+  -rw-r--r--   1 mir  staff     2603 Nov  3 07:51 go.sum
+  -rwxr-xr-x   1 mir  staff  6296658 Nov  6 11:41 gogen  <-- the executable file
+  -rw-r--r--   1 mir  staff     2115 Nov  6 10:43 main.go
+  drwxr-xr-x  16 mir  staff      512 Nov  2 17:56 utils
 ```
 
 or if you are on Windows you will see the `gogen.exe`
