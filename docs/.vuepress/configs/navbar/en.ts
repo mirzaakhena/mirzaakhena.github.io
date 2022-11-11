@@ -7,7 +7,7 @@ export const en: NavbarConfig = [
   },
   {
     text: 'Getting Started',
-    link: '/getting-started/',
+    link: '/getting-started/installation/',
   },
   {
     text: 'Tutorial',
@@ -15,11 +15,11 @@ export const en: NavbarConfig = [
   },
   {
     text: 'Feature',
-    link: '/features/',
+    link: '/features/architecture/',
   },
   {
     text: 'Concept',
-    link: '/learn-more/concept',
+    link: '/learn-more/concept/',
   },
   {
     text: 'FAQ',

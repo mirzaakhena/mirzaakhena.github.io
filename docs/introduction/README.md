@@ -32,4 +32,30 @@ It is a long established fact that a reader will be distracted by the readable c
 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
 
 ## Learning Process 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+There are two ways to learn
+
+- learning from the fundamental
+    tobe an expert,
+    learning from detail component,
+    learning specific things,
+    know the basic knowledge,
+    not know the purpose,
+    focus to the process,
+    slow,
+    learn from theoretically,
+
+- learning from middle of project
+    to be a user,
+    learning from the template,
+    learning general,
+    not very understand the basic knowledge,
+    know the purpose,
+    focus to the goal,
+    fast,
+    learn from best practice,
+
+gogen apply the second way. 
+The reason is you have limited time to learn all the up-to-date technology
+you need an accelerated way to learn. Learning from working sample is easier than writing code from the scratch
+in the future we even no need to write any of code we just command the AI to write it for us
+we will focus on logic only not to "how to use and write the infrastructure code"

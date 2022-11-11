@@ -33,7 +33,12 @@ export const en: SidebarConfig = {
       text: 'Learn More',
       children: [
         '/learn-more/concept.md',
-        '/learn-more/how-to.md',
+        '/learn-more/how-it-works.md',
+        '/learn-more/application.md',
+        '/learn-more/controller.md',
+        '/learn-more/gateway.md',
+        '/learn-more/usecase.md',
+        '/learn-more/model.md',
       ],
     },
   ],
