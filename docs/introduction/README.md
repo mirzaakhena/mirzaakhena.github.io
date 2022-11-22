@@ -19,7 +19,7 @@ Every project in every company has their own standard structure code layout. Eve
 
 ## What Gogen Solve 
 Gogen is offering a better code structure for your project so you can maintain and increase productivity in every development phase.
-
+It gives you ready to use structure for you to work. So you can focus on the business process.
 
 ## Who need this tools
 * Lazy developer who want to have consistent structure
