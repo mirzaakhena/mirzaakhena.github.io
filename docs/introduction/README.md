@@ -6,7 +6,7 @@ sidebar: auto
 
 ## What is Gogen ?
 
-Gogen is a GO dynamic scaffolding tools for creating a bunch of boiler plate code which follow [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) and [Domain Driven Design](https://martinfowler.com/tags/domain%20driven%20design.html) concept and principle. 
+Gogen is a GO dynamic scaffolding tools for creating a bunch of boiler plate code which follow [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) and [Domain Driven Design](https://martinfowler.com/tags/domain%20driven%20design.html) concept and principle. So you can organize your code structure better and maintanable
 
 It is **dynamic** because we can generate a GO code and we can inject some code during development process. It also has a simple and consistent structure so everyone can intuitively know where and what each folder (package) does.
 
