@@ -75,7 +75,7 @@ $ gogen
 ```
 You will see this
 
-```shell
+```text
 Gogen v0.0.1
 Try one of this command to learn how to use it
   gogen domain
@@ -173,7 +173,7 @@ $ gogen entity User
 
 This command will create this structure
 
-```shell
+```text
 domain_userauth
 ├── README.md
 └── model
@@ -347,14 +347,8 @@ $ gogen usecase RunUserLogin
 
 After call `gogen usecase` we got
 
-```shell
+```text
 domain_userauth
-├── README.md
-├── model
-│   ├── entity
-│   │   └── user.go
-│   └── vo
-│       └── user_id.go
 └── usecase
     └── runuserlogin
         ├── README.md
@@ -466,12 +460,21 @@ Now you see that we have 2 kind of repository command. For now we will try the f
 $ gogen repository FindOneUserByEmail User RunUserLogin
 ```
 
-In this case, we will create some repository with this specification
+Now we just add new folder repository
+
+```text
+└── domain_userauth
+    └── model
+        └── repository
+            └── repository.go
+```
+
+In this case, we just create a repository with this specification
 1. Create the interface with name `FindOneUserByEmailRepository` which has one method on it with name `FindOneUserByEmail`
 1. Use the existing entity `User` (or create the new one if it not exist) in method `FindOneUserByEmail`
 1. Inject the method in the usecase `RunUserLogin`
 
-This command will create some folders and files like
+This command create some folders and files like
 * `domain_userauth/model/entity/user.go` (if not exist)
 * `domain_userauth/model/repository/repository.go` (by append the interface if it never exist)
 * `domain_userauth/model/vo/user_id.go` (if not exist)
@@ -480,25 +483,6 @@ and also inject some code into
 * `domain_userauth/usecase/runuserlogin/interactor.go`
 * `domain_userauth/usecase/runuserlogin/outport.go`
 
-This is the latest structure so far with additional repository file
-
-```shell
-├── domain_userauth
-│   ├── README.md
-│   ├── model
-│   │   ├── entity
-│   │   │   └── user.go
-│   │   ├── repository
-│   │   │   └── repository.go
-│   │   └── vo
-│   │       └── user_id.go
-│   └── usecase
-│       └── runuserlogin
-│           ├── README.md
-│           ├── inport.go
-│           ├── interactor.go
-│           └── outport.go
-```
 
 Lets take a look at `domain_userauth/model/repository/repository.go`
 
@@ -620,7 +604,16 @@ Let create our service to generate the random unique token using first `gogen se
 $ gogen service GenerateLoginToken RunUserLogin
 ```
 
-Now we have new file created `domain_userauth/model/service/service.go`
+We just add new folder service
+
+```text
+└── domain_userauth
+    └── model
+        └── service
+            └── service.go
+```
+
+The content of `domain_userauth/model/service/service.go`
 ```go
 package service
 
@@ -686,28 +679,6 @@ type Outport interface {
 	repository.FindOneUserByEmailRepo
 	service.GenerateLoginTokenService
 }
-```
-
-The structure now
-
-```shell
-├── domain_userauth
-│   ├── README.md
-│   ├── model
-│   │   ├── entity
-│   │   │   └── user.go
-│   │   ├── repository
-│   │   │   └── repository.go
-│   │   ├── service
-│   │   │   └── service.go
-│   │   └── vo
-│   │       └── user_id.go
-│   └── usecase
-│       └── runuserlogin
-│           ├── README.md
-│           ├── inport.go
-│           ├── interactor.go
-│           └── outport.go
 ```
 
 We can simplify the service since no parameter needed and we just want to return the string as a token. So we can edit the code in `domain_userauth/model/service/service.go`
@@ -782,7 +753,17 @@ There are 3 type off command. We are gonna use the first one. In this case we wi
 ```shell
 $ gogen gateway hardcoded
 ```
-This command will produce `domain_userauth/gateway/hardcoded/gateway.go`
+
+Now we add new folder `gateway/hardcoded`
+
+```text
+└── domain_userauth
+    └── gateway
+        └── hardcoded
+            └── gateway.go
+```
+
+This command produce `domain_userauth/gateway/hardcoded/gateway.go`
 
 ```go
 package hardcoded
@@ -860,29 +841,6 @@ func (r *gateway) GenerateLoginToken(ctx context.Context) string {
 }
 ```
 
-```shell
-├── domain_userauth
-│   ├── README.md
-│   ├── gateway
-│   │   └── hardcoded
-│   │       └── gateway.go
-│   ├── model
-│   │   ├── entity
-│   │   │   └── user.go
-│   │   ├── repository
-│   │   │   └── repository.go
-│   │   ├── service
-│   │   │   └── service.go
-│   │   └── vo
-│   │       └── user_id.go
-│   └── usecase
-│       └── runuserlogin
-│           ├── README.md
-│           ├── inport.go
-│           ├── interactor.go
-│           └── outport.go
-```
-
 ### gogen controller
 
 Now lets create a controller. with gogen we can use `gogen controller` command.
@@ -924,33 +882,14 @@ it will create the some folder and files
 * `domain_userauth/controller/restapi/interceptor.go`
 * `domain_userauth/controller/restapi/router.go`
 
-```shell
-├── domain_userauth
-│   ├── README.md
-│   ├── controller
-│   │   └── restapi
-│   │       ├── handler_runuserlogin.go
-│   │       ├── http_runuserlogin.http
-│   │       ├── interceptor.go
-│   │       └── router.go
-│   ├── gateway
-│   │   └── hardcoded
-│   │       └── gateway.go
-│   ├── model
-│   │   ├── entity
-│   │   │   └── user.go
-│   │   ├── repository
-│   │   │   └── repository.go
-│   │   ├── service
-│   │   │   └── service.go
-│   │   └── vo
-│   │       └── user_id.go
-│   └── usecase
-│       └── runuserlogin
-│           ├── README.md
-│           ├── inport.go
-│           ├── interactor.go
-│           └── outport.go
+```text
+└── domain_userauth
+    └── controller
+        └── restapi
+            ├── handler_runuserlogin.go
+            ├── http_runuserlogin.http
+            ├── interceptor.go
+            └── router.go
 ```
 
 Let see how the `domain_userauth/controller/restapi/router.go` looks like
@@ -1072,6 +1011,8 @@ func (r *ginController) RegisterRouter(router selectedRouter) {
 }
 ```
 
+### gogen application
+
 And the last step is we are creating the application
 
 ```go
@@ -1099,10 +1040,18 @@ Output
 
 We have 3 type of `gogen application` command. We are gonna use the first one
 
-```go
+```shell
 $ gogen application myapp
 ```
 
+This create new folder application and main file
+
+```text
+├── application
+│   └── app_myapp.go
+└── main.go
+
+```
 And now gogen create us `application/myapp.go` that combine the usecase, gateway and controller together
 
 ```go
