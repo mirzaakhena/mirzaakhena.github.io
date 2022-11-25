@@ -6,16 +6,18 @@ sidebar: auto
 
 ## What is Gogen ?
 
-Gogen is a GO dynamic scaffolding tools for creating a bunch of boiler plate code which follow [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) and [Domain Driven Design](https://martinfowler.com/tags/domain%20driven%20design.html) concept and principle. So you can organize your code structure better and maintanable
+Gogen is a Go progressive scaffolding tools for creating a bunch of boiler plate code which follow [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) and [Domain Driven Design](https://martinfowler.com/tags/domain%20driven%20design.html) concept and principle. So you can organize your code structure better and maintainable.
 
-It is **dynamic** because we can generate a GO code and we can inject some code during development process. It also has a simple and consistent structure so everyone can intuitively know where and what each folder (package) does.
+It is **progressive** because we can generate a Go code and we can inject some code in the middle of development process. It also has a simple and consistent structure so everyone can intuitively know where and what each folder (package) does.
 
 ## Common Existing Problem
-Currently GO has no standard structure code layout. Some people initiate to create it like [project-layout](https://github.com/golang-standards/project-layout) which is a good things but it does not follow a common design principle. It just a organization folder used by common people based on go best practise. Developer still enforce to applied the design principle by it self. Writing a organized code and applied a design principle at the same time require a knowledge and experiance. 
+Currently Go has no standard structure code layout. Some people initiate to create it like [project-layout](https://github.com/golang-standards/project-layout) which is a good things but it does not follow a common design principle. It just a organization folder used by common people based on Go best practise. Developer still enforce to applied the design principle by it self. Writing a organized code and applied a design principle at the same time require a lot of reasearch, trial and error.
 
-When you first start your project you need to create a skeleton code and consistent structure. If you are trying to learn GO or if you are building a PoC or a simple project for yourself this project layout is an overkill. Start with something really simple instead (a single main.go file and go.mod is more than enough). As your project grows keep in mind that it'll be important to make sure your code is well structured otherwise you'll end up with a messy code with lots of hidden dependencies and global state. When you have more people working on the project you'll need even more structure. That's when it's important to introduce a common way to manage.
+If you are a beginner on learning a programming language especially Go, Gogen is to much overkill. For very simple project, simple tools or just an simple service, you may try with simple layout instead. 
 
-Every project in every company has their own standard structure code layout. Every new joiners will always follow their "ancestor" developer. If you have messy code structure in the first place, then your code will become more messy if not managed well
+When you first start your Go project you need to create a skeleton code and consistent structure. As your project grows keep in mind that it'll be important to make sure your code is well structured otherwise you'll end up with a messy code with lots of hidden dependencies and global state. When you have more people working on the project you'll need even more structure. That's when it's important to introduce a common way to manage.
+
+Every project in every company has their own standard structure code layout. Every new joiners will always follow their "ancestor" developer. If you already have messy code structure in the first place, then your code will become more messy if not managed well.
 
 ## What Gogen Solve 
 Gogen is offering a better code structure for your project so you can maintain and increase productivity in every development phase.
@@ -25,17 +27,13 @@ It gives you ready to use structure for you to work. So you can focus on the bus
 * Lazy developer who want to have consistent structure
 * Tech company who want a standard code for their project 
 
-## Benefit
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-## Applied Principle 
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-
 ## Learning Process 
-There are two ways to learn
+There are two kind of learning process approach. The first one is you learn from fundamental and the second one is you learning by trying to achieve some goal. Both of this approach require a guideline and mentor. 
 
-- learning from the fundamental
-    tobe an expert,
+- Learning from the fundamental
+    have no direction
+    you don't have a motivation or knowledge where we should use or do something
+    tobe an expert because you need to know the detail,
     learning from detail component,
     learning specific things,
     know the basic knowledge,
@@ -44,8 +42,10 @@ There are two ways to learn
     slow,
     learn from theoretically,
 
-- learning from middle of project
-    to be a user,
+- learning with specific goal
+    you have a goal
+    you have motivatation to achieve a goal
+    to be a user because you don't understand the detail,
     learning from the template,
     learning general,
     not very understand the basic knowledge,
