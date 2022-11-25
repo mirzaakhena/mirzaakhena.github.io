@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as a,a as e,b as n}from"./app.1755948f.js";const o={},r=e("h1",{id:"fundamental-concept",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#fundamental-concept","aria-hidden":"true"},"#"),n(" Fundamental Concept")],-1),s=[r];function d(_,l){return c(),a("div",null,s)}const f=t(o,[["render",d],["__file","concept.html.vue"]]);export{f as default};

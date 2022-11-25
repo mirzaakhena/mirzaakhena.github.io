@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-64bed81a","path":"/learn-more/usecase.html","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667969825000,"contributors":[{"name":"mirza","email":"mirza.akhena@gmail.com","commits":1}]},"filePathRelative":"learn-more/usecase.md"}');export{e as data};

@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a as n,b as a}from"./app.1755948f.js";const c={},i=n("h1",{id:"naming-convention",tabindex:"-1"},[n("a",{class:"header-anchor",href:"#naming-convention","aria-hidden":"true"},"#"),a(" Naming Convention")],-1),r=[i];function s(_,d){return o(),t("div",null,r)}const h=e(c,[["render",s],["__file","naming-convention.html.vue"]]);export{h as default};

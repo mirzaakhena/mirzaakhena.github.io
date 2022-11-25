@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-18ef2cbc","path":"/features/naming-convention.html","title":"Naming Convention","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667704756000,"contributors":[{"name":"mirza","email":"mirza.akhena@gmail.com","commits":2}]},"filePathRelative":"features/naming-convention.md"}');export{e as data};

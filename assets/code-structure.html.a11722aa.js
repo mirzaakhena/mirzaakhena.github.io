@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-feef8466","path":"/features/code-structure.html","title":"Code Structure","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667704756000,"contributors":[{"name":"mirza","email":"mirza.akhena@gmail.com","commits":2}]},"filePathRelative":"features/code-structure.md"}');export{e as data};

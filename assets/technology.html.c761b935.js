@@ -1,0 +1,1 @@
+import{_ as o,o as t,c,a as e,b as a}from"./app.1755948f.js";const n={},r=e("h1",{id:"technology",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#technology","aria-hidden":"true"},"#"),a(" Technology")],-1),s=[r];function _(h,l){return t(),c("div",null,s)}const i=o(n,[["render",_],["__file","technology.html.vue"]]);export{i as default};

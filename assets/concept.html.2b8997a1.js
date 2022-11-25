@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-37ae1989","path":"/learn-more/concept.html","title":"Fundamental Concept","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667704756000,"contributors":[{"name":"mirza","email":"mirza.akhena@gmail.com","commits":2}]},"filePathRelative":"learn-more/concept.md"}');export{e as data};

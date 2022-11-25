@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-40b29a6e","path":"/features/gogen-command-dependency.html","title":"Gogen Command Dependency","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667969825000,"contributors":[{"name":"mirza","email":"mirza.akhena@gmail.com","commits":1}]},"filePathRelative":"features/gogen-command-dependency.md"}');export{e as data};

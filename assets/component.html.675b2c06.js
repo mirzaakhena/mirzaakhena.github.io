@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-09977af5","path":"/features/component.html","title":"Built-in Component","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667704756000,"contributors":[{"name":"mirza","email":"mirza.akhena@gmail.com","commits":2}]},"filePathRelative":"features/component.md"}');export{e as data};

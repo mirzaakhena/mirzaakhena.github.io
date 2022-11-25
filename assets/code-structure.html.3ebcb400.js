@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as r,a as e,b as o}from"./app.1755948f.js";const a={},s=e("h1",{id:"code-structure",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#code-structure","aria-hidden":"true"},"#"),o(" Code Structure")],-1),d=[s];function n(u,_){return c(),r("div",null,d)}const h=t(a,[["render",n],["__file","code-structure.html.vue"]]);export{h as default};

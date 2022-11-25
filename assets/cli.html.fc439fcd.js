@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-767ba372","path":"/features/cli.html","title":"Command Line Interface","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667704756000,"contributors":[{"name":"mirza","email":"mirza.akhena@gmail.com","commits":2}]},"filePathRelative":"features/cli.md"}');export{e as data};

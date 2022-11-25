@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-136ab623","path":"/features/how-it-works.html","title":"How it Works","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667704756000,"contributors":[{"name":"mirza","email":"mirza.akhena@gmail.com","commits":2}]},"filePathRelative":"features/how-it-works.md"}');export{t as data};
